@@ -1,5 +1,7 @@
 #file to analyze data
-
+library(ggplot2)
 dat = read.csv("data.csv")
 
-plot(x~y, data=dat)
+
+qplot(x,y,data=dat)
+
